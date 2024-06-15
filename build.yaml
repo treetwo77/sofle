@@ -16,22 +16,7 @@
 #     cmake-args: -DCONFIG_ZMK_USB_LOGGING=y
 #     artifact-name: corne_left_with_logging
 #
----
-include:
-  - board: nrf52840dk_nrf52840
-    shield: sofle_left
-  - board: nrf52840dk_nrf52840
-    shield: sofle_right
-include:
-  - board: nrf52840dk_nrf52840
-    shield: sofle_left
-  - board: nrf52840dk_nrf52840
-    shield: sofle_right
-include:
-  - board: nrf52840dk_nrf52840
-    shield: sofle_left
-  - board: nrf52840dk_nrf52840
-    shield: sofle_right
+
 include:
   - board: nice_nano_v2
     shield: sofle_left
